@@ -1,0 +1,12 @@
+{
+    "editor.fontFamily": "DM Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.fontWeight": "normal",
+    "editor.lineHeight": 2,
+    "editor.letterSpacing": 0.5,
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "workbench.tree.indent": 10,
+    "workbench.productIconTheme": "IntelliJ",
+    "window.zoomLevel": 1
+}

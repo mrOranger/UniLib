@@ -1,14 +1,17 @@
 {
-    "editor.fontFamily": "DM Mono",
+    "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "editor.fontWeight": "normal",
-    "editor.lineHeight": 2,
-    "editor.letterSpacing": 0.5,
+    "editor.lineHeight": 26,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "block-outline",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.minimap.enabled": false,
     "workbench.colorTheme": "Sublime Material Theme - Dark",
     "workbench.tree.indent": 10,
     "workbench.productIconTheme": "IntelliJ",
     "window.zoomLevel": 1,
     "terminal.integrated.fontSize": 12,
-    "terminal.integrated.lineHeight": 1.5
+    "terminal.integrated.lineHeight": 1.5,
 }

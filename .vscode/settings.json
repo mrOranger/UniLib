@@ -8,5 +8,7 @@
     "workbench.colorTheme": "Sublime Material Theme - Dark",
     "workbench.tree.indent": 10,
     "workbench.productIconTheme": "IntelliJ",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.5
 }

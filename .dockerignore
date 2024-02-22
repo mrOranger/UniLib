@@ -1,0 +1,17 @@
+# Local files
+assets
+.vscode
+.editorconfig
+.gitignore
+LICENSE
+php.dockerfile
+README.md
+docker-compose.yaml
+
+# Laravel files
+unilib/vendor
+unilib/README.md
+unilib/composer.lock
+unilib/.gitignore
+unilib/.gitattributes
+unilib/.editorconfig

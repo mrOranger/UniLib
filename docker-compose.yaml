@@ -1,0 +1,28 @@
+version: "3.8"
+name: unilib
+services:
+    php:
+        container_name: 'unilib-php'
+        build:
+            context: ./
+            dockerfile: php.dockerfile
+        volumes:
+            - ./unilib/:/var/www/html:delegated
+        ports:
+            - 80:80
+        depends_on:
+            - mysql
+    mysql:
+        container_name: 'unilib-mysql'
+        image: mysql:latest
+        env_file: 
+            - ./unilib/docker/env/mysql.env
+        volumes:
+            - db-data:/var/lib/mysql/
+    redis:
+        container_name: unilib-redis
+        image: redis:alpine
+        ports:
+            - 6379:6379
+volumes:
+    db-data: ~
